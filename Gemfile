@@ -15,9 +15,9 @@ gem "rake", ">= 11.1"
 gem "mocha", "~> 0.14", require: false
 
 gem "rack-cache", "~> 1.2"
-gem "jquery-rails"
-gem "coffee-rails"
-gem "sass-rails"
+gem "jquery-rails", ">= 4.2.1"
+gem "coffee-rails", ">= 4.2.2"
+gem "sass-rails", ">= 5.0.6"
 gem "turbolinks", "~> 5"
 
 # require: false so bcrypt is loaded only when has_secure_password is used.
@@ -38,7 +38,7 @@ gem "rb-inotify", github: "matthewd/rb-inotify", branch: "close-handling", requi
 group :doc do
   gem "sdoc", "1.0.0.beta2"
   gem "redcarpet", "~> 3.2.3", platforms: :ruby
-  gem "w3c_validators"
+  gem "w3c_validators", ">= 1.2"
   gem "kindlerb", "0.1.1"
 end
 
